@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     requirements = [l.strip() for l in f]
 
 setup(
-    name='cah',
+    name='hamper-pizza',
     version='0.1',
     packages=['hamper-pizza'],
     author='Dean Johnson',
