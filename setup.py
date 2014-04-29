@@ -9,7 +9,7 @@ setup(
     packages=['hamper-pizza'],
     author='Dean Johnson',
     author_email='deanjohnson222@gmail.com',
-    url='https://github.com/johnsdea/hamper-pizza',
+    url='https://github.com/dean/hamper-pizza',
     install_requires=requirements,
     package_data={'hamper-pizza': ['requirements.txt', 'README.md', 'LICENSE']}
 )
