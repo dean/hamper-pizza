@@ -78,7 +78,7 @@ class Pizza(ChatCommandPlugin):
 
     class StartPoll(Command):
         name = 'pizza'
-        regex = r'^pizza (\d)?$'
+        regex = r'^pizza (\d+)?$'
 
         short_desc = ('!pizza <duration> - Start a pizza poll with a given '
                       'duration in minutes. (Default duration is 10 minutes)')
