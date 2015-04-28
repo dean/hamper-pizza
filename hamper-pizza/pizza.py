@@ -106,9 +106,6 @@ class Pizza(ChatCommandPlugin):
             bot.reply(comm, "{0} has initiated a pizza poll!".format(
                         comm['user']))
 
-        def uselessfunc(self):
-            return True
-
     class Vote(Command):
         name = 'vote'
         regex = r'^vote \"(.+)\"$'
