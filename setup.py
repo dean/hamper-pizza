@@ -14,7 +14,7 @@ setup(
     package_data={'hamper-pizza': ['requirements.txt', 'README.md', 'LICENSE']},
     entry_points={
         'hamperbot.plugins': [
-            'pizza = hamper_pizza.pizza:Pizza',
+            'pizza = hamper-pizza.pizza:Pizza',
         ],
     },
 
