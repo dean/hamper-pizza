@@ -11,5 +11,11 @@ setup(
     author_email='deanjohnson222@gmail.com',
     url='https://github.com/dean/hamper-pizza',
     install_requires=requirements,
-    package_data={'hamper-pizza': ['requirements.txt', 'README.md', 'LICENSE']}
+    package_data={'hamper-pizza': ['requirements.txt', 'README.md', 'LICENSE']},
+    entry_points={
+        'hamperbot.plugins': [
+            'pizza = hamper_pizza.pizza:Pizza',
+        ],
+    },
+
 )
