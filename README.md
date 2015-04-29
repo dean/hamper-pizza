@@ -4,6 +4,6 @@ INSTALL
 =======
 
 ```shell
-pip install git+https://github.com/johnsdea/hamper-pizza.git
+pip install git+https://github.com/dean/hamper-pizza.git
 ```
 
